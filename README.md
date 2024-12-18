@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Ecommerce Frontend
 
-## Getting Started
+This is a modern, responsive, and SEO-friendly frontend for an ecommerce platform built with the latest and most efficient technologies in web development. The project is designed to showcase best practices for frontend development, including modular architecture, reusable components, and maintainable state management.
 
-First, run the development server:
+🛠️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Framework: Next.js (for server-side rendering and static site generation)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Language: TypeScript (for type-safe development)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+UI Component Libraries: Tailwind CSS (utility-first styling) and Shadcn (Radix UI + Tailwind pre-built components)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+State Management: Zustand or Jotai (for local state) and React Query (for server state)
 
-## Learn More
+Form Handling: React-Hook-Form (for efficient forms) and Zod (for schema validation)
 
-To learn more about Next.js, take a look at the following resources:
+HTTP Client: Axios (for API requests)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📦ecommerce-frontend
+ ┣ 📂components
+ ┣ 📂hooks
+ ┣ 📂pages
+ ┣ 📂public
+ ┣ 📂styles
+ ┣ 📂utils
+ ┣ 📜README.md
+ ┣ 📜next.config.js
+ ┣ 📜tsconfig.json
+ ┣ 📜package.json
+ ┗ 📜tailwind.config.js
 
-## Deploy on Vercel
+🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Clone the repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+$ git clone https://github.com/fahim-arif/Ecommerce-Frontend---Next.js-TypeScript-Tailwind-and-shadcn.git
+$ cd ecommerce-frontend
+
+Install dependencies
+
+$ npm install  # or yarn install
+
+Run the development server
+
+$ npm run dev  # or yarn dev
+
+Visit the app
+
+http://localhost:3000
+
+📚 Scripts
+
+npm run dev: Start the development server
+
+npm run build: Build the app for production
+
+npm run start: Start the production server
+
+npm run lint: Run the linter
+
+🔐 Authentication
+
+This project relies on a JWT-based authentication system connected to the FastAPI backend.
+
+🧪 Testing
+
+To be implemented in the future with Jest and React Testing Library.
+
+🤝 Contributing
+
+If you'd like to contribute, feel free to fork the repo and create a pull request.
+
+📜 License
+
+This project is licensed under the MIT License.
